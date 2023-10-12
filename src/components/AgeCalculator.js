@@ -21,7 +21,7 @@ function AgeCalculator(){
       <br>
       </br>
       <button onClick={calculateAge}>Calculate Age</button>
-      {age!==null && <h2>Your age is:{age} years</h2>}
+      {age!==null && <h2>You are {age} years old</h2>}
     </div>
   );
 }
